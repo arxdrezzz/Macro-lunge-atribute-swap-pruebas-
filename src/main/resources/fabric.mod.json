@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarslots",
+  "version": "${version}",
+  "name": "Hotbar Slots",
+  "description": "Dos teclas configurables para seleccionar las ranuras 9 y 6 de la barra rápida.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.hotbarslots.HotbarSlotsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
